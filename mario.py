@@ -45,12 +45,12 @@ def dtag(n):
         dots = n - hashes
         # 打印点
         for dot in range(dots):
-            print(".", end="")
+            print(" ", end="")
         # 打印井号
         for hashe in range(hashes):
             print("#", end="")
         # 打印中间点
-        print("..", end="")
+        print("  ", end="")
         # 打印井号
         for hashe in range(hashes):
             print("#", end="")
